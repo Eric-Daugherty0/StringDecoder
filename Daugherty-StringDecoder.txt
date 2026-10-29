@@ -1,0 +1,34 @@
+Pseudocode
+
+Program starts and sets up the decoder chart
+A-Z matched to the coded letters
+
+The program then goes through the string:
+    
+    If 
+        when the character is a letter then
+        Find its place in the chart
+        Replace it with the coded letter
+        Keep the same upper or lower case
+
+    Else
+        Leave the character as it is this
+        includes spaces, numbers, and punctuation.
+
+    Display the original word
+    Display the encoded word
+
+Ask the user if they want to encode another word:
+    
+    If 
+        when the answer is yes then repeat the loop
+
+    Else If 
+        when the answer is no then stop looping
+
+    Else
+        The program will tell the user
+        they had an invalid option and ask again
+
+When the program exits:
+    Convey that the program has ended. 
